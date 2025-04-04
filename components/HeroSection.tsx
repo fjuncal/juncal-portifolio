@@ -26,12 +26,13 @@ const HeroSection = () => {
             <span className="font-semibold text-teal-600">
               Software Engineer{" "}
             </span>
-            based in Rio de Janeiro, BR. Working towards creating software that
-            makes life easier and more meaningful.
+            I’m a software engineer from Rio de Janeiro, Brazil, passionate
+            about building clean, scalable, and meaningful software that solves
+            real-world problems.
           </p>
           <Link
             to="projects"
-            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
+            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 hover:cursor-pointer"
             activeClass="active"
             spy={true}
             smooth={true}
