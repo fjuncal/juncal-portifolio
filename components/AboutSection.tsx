@@ -31,34 +31,36 @@ const AboutSection = () => {
             </h1>
             <p>
               Hi, my name is Fellipe Juncal and I am a{" "}
-              <span className="font-bold">{"highly ambitious"}</span>,
+              <span className="font-bold">{"passionate"}</span>,
               <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> software engineer
-              based in Los Angeles, CA.
+              <span className="font-bold">{" curios"}</span> software engineer
+              based in Rio de Janeiro, Brazil, with a strong desire to create
+              impactful solutions through technology.
             </p>
             <br />
             <p>
-              I graduated from California State University, Northridge in 2019
-              with a BS in Computer Engineering and have been working in the
-              field ever since.
+              I’ve been working in software development for the past few years,
+              mainly with Java, React, and modern backend architectures, and I
+              thrive in projects that involve complex challenges, clean code,
+              and real-world impact. I’m currently focused on growing as a
+              fullstack developer, while also diving deeper into cloud computing
+              and system design.
             </p>
             <br />
             <p>
-              I have a wide range of hobbies and passions that keep me busy.
-              From reading, playing sports, traveling, to making YouTube videos,
-              I am always seeking new experiences and love to keep myself
-              engaged and learning new things.
+              Outside of coding, I’m all about enjoying life — whether it&#39;s
+              playing football, going to the gym, traveling, or just diving into
+              a good tech article or side project. I’m always seeking ways to
+              learn something new and evolve both personally and professionally.
             </p>
             <br />
             <p>
-              I believe that you should{" "}
-              <span className="font-bold text-teal-500">
-                never stop growing
-              </span>{" "}
-              and that&#39;s what I strive to do, I have a passion for
-              technology and a desire to always push the limits of what is
-              possible. I am excited to see where my career takes me and am
-              always open to new opportunities. 🙂
+              I truly believe in{" "}
+              <span className="font-bold text-teal-500">constant growth</span>{" "}
+              and I’m excited about what the future holds. Whether it’s working
+              with new technologies, collaborating with great people, or
+              building something meaningful — I’m here for it. Let&#39;s connect
+              and make it happen!🚀
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
