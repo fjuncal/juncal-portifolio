@@ -22,12 +22,20 @@ const projects = [
     link: "https://inclusion-quiz.vercel.app/",
   },
   {
-    name: "Kator Family Photos",
+    name: "Bet Management API",
     description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
-    image: "/familyphotos.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+      "A complete betting management API with JWT authentication, PDF/CSV report generation, and real-time features using WebSocket.",
+    image: "/bet-management-api.png",
+    github: "https://github.com/fjuncal/bet-management-api",
+    link: "",
+  },
+  {
+    name: "Messaging Oracle",
+    description:
+      "Simulation of a financial microservices system with message exchange via ActiveMQ/IBM MQ, database persistence, and UI for tracking message status.",
+    image: "/messaging-oracle.png",
+    github: "https://github.com/fjuncal/oraculo-selic",
+    link: "",
   },
 ];
 
