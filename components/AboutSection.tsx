@@ -2,17 +2,24 @@ import React from "react";
 import Image from "next/image";
 
 const skills = [
-  { skill: "HTML" },
-  { skill: "CSS" },
-  { skill: "JavaScript" },
-  { skill: "TypeScript" },
+  { skill: "Java" },
+  { skill: "Spring Boot" },
+  { skill: "Golang" },
   { skill: "Python" },
+  { skill: "Typescript" },
+  { skill: "Angular" },
   { skill: "React" },
-  { skill: "Next.js" },
-  { skill: "Tailwind CSS" },
+  { skill: "NextJs" },
   { skill: "Git" },
   { skill: "GitHub" },
-  { skill: "Jupyter Notebooks" },
+  { skill: "Oracle" },
+  { skill: "PostgreSQL" },
+  { skill: "Jenkins" },
+  { skill: "ActiveMQ" },
+  { skill: "IBMMQ" },
+  { skill: "JBoss" },
+  { skill: "SonarQube" },
+  { skill: "JUnit" },
 ];
 
 const AboutSection = () => {
