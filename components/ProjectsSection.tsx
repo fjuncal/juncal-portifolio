@@ -1,24 +1,25 @@
-import React from "react"
-import Image from "next/image"
-import Link from "next/link"
-import SlideUp from "./SlideUp"
-import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import SlideUp from "./SlideUp";
+import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 const projects = [
   {
-    name: "Thankful Thoughts",
+    name: "Mock Interview With IA",
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
-    image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+      "A platform that simulates job interviews with AI-generated questions and automatic transcription.",
+    image: "/mock-interview-ia.png",
+    github: "https://github.com/fjuncal/mock-interview-ia",
+    link: "https://mock-interview-ia.vercel.app/",
   },
   {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
-    image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
+    name: "Inclusion Quiz",
+    description:
+      "Interactive quiz on inclusion and diversity with multiple-choice questions and instant feedback.",
+    image: "/inclusion-quiz.png",
+    github: "https://github.com/fjuncal/inclusion-quiz",
+    link: "https://inclusion-quiz.vercel.app/",
   },
   {
     name: "Kator Family Photos",
@@ -28,7 +29,7 @@ const projects = [
     github: "https://github.com/hqasmei/katorfamilyphotos",
     link: "https://katorfamilyphotos.com/",
   },
-]
+];
 
 const ProjectsSection = () => {
   return (
@@ -78,12 +79,11 @@ const ProjectsSection = () => {
                 </div>
               </SlideUp>
             </div>
-          )
+          );
         })}
-        
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default ProjectsSection
+export default ProjectsSection;
