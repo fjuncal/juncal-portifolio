@@ -1,5 +1,9 @@
 import React from "react";
-import { AiOutlineGithub, AiOutlineLinkedin } from "react-icons/ai";
+import {
+  AiOutlineContainer,
+  AiOutlineGithub,
+  AiOutlineLinkedin,
+} from "react-icons/ai";
 
 const Footer = () => {
   return (
@@ -22,6 +26,12 @@ const Footer = () => {
             target="_blank"
           >
             <AiOutlineLinkedin
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              size={30}
+            />
+          </a>
+          <a href="/juncal-refact-be.pdf" target="_blank" rel="noreferrer">
+            <AiOutlineContainer
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
               size={30}
             />

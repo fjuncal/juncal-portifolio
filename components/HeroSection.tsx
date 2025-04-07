@@ -31,38 +31,48 @@ const HeroSection = () => {
             about building clean, scalable, and meaningful software that solves
             real-world problems.
           </p>
-          <Link
-            to="projects"
-            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 hover:cursor-pointer"
-            activeClass="active"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
-          >
-            Projects
-          </Link>
-          <div className="flex flex-row items-center justify-center space-x-4 mt-4">
-            <a
-              href="https://github.com/fjuncal"
-              rel="noreferrer"
-              target="_blank"
+          <div className="space-x-4 mt-4">
+            <Link
+              to="projects"
+              className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 hover:cursor-pointer"
+              activeClass="active"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
             >
-              <AiOutlineGithub
-                className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
-                size={30}
-              />
-            </a>
+              Projects
+            </Link>
             <a
-              href="https://www.linkedin.com/in/fellipe-juncal/"
-              rel="noreferrer"
+              href="/juncal-refact-be.pdf"
               target="_blank"
+              rel="noreferrer"
+              className="inline-block mt-4 text-neutral-100 font-semibold px-6 py-3 bg-gray-700 rounded shadow hover:bg-gray-800"
             >
-              <AiOutlineLinkedin
-                className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
-                size={30}
-              />
+              View CV
             </a>
+            <div className="flex flex-row space-x-4 mt-5">
+              <a
+                href="https://github.com/fjuncal"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <AiOutlineGithub
+                  className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+                  size={30}
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/fellipe-juncal/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <AiOutlineLinkedin
+                  className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+                  size={30}
+                />
+              </a>
+            </div>
           </div>
         </div>
       </div>
