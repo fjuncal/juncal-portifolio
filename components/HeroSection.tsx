@@ -31,7 +31,7 @@ const HeroSection = () => {
             about building clean, scalable, and meaningful software that solves
             real-world problems.
           </p>
-          <div className="space-x-4 mt-4">
+          <div className="space-x-4 mt-7">
             <Link
               to="projects"
               className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 hover:cursor-pointer"
@@ -47,11 +47,11 @@ const HeroSection = () => {
               href="/juncal-refact-be.pdf"
               target="_blank"
               rel="noreferrer"
-              className="inline-block mt-4 text-neutral-100 font-semibold px-6 py-3 bg-gray-700 rounded shadow hover:bg-gray-800"
+              className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 hover:cursor-pointer"
             >
               View CV
             </a>
-            <div className="flex flex-row space-x-4 mt-5">
+            <div className="flex flex-row space-x-4 mt-7">
               <a
                 href="https://github.com/fjuncal"
                 rel="noreferrer"
